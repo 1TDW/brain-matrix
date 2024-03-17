@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap');
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: rubik, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.box {
+    padding: 8px;
+    background: lightgray;
+}
+
+#categories {
+    margin: 32px 0;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+#categories .box {
+    flex: 1;
+}
